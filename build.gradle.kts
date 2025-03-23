@@ -27,9 +27,10 @@ dependencies {
     // Spring Security with OAuth2 support
     implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
+    implementation("org.springframework.boot:spring-boot-starter-oauth2-resource-server")
 
     // JWT support for token generation & validation
-    implementation("io.jsonwebtoken:jjwt:0.11.5")
+    implementation("io.jsonwebtoken:jjwt:0.12.6")
 
     // Spring Data JPA for user storage
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
